@@ -80,7 +80,7 @@ int main(void)
             PORTB|= (1<<1);
             PORTB &= ~(1<<4);
             PORTB|=(1<<5);
-            tempo=1500;
+            tempo=1200;
             estado=5;
         }
         
